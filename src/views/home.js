@@ -467,7 +467,7 @@ const Home = (props) => {
             </h2>
             <span className="home-text50 lead1">
               <span className="home-text51">
-                Tag us on twitter or dankmeme us on discord
+                @ us on twitter or tag us on a dankmeme
               </span>
             </span>
           </div>
@@ -513,11 +513,19 @@ const Home = (props) => {
                 className="home-component4"
               ></StatsCard>
             </a>
-            <StatsCard
-              number="2 Milion"
-              image_src="/playground_assets/discodiscogoodhood-200h.png"
-              description="Users"
-            ></StatsCard>
+            <a
+              href="https://twitter.com/BouncyBonobos"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link11"
+            >
+              <StatsCard
+                number="2 Milion"
+                image_src="/playground_assets/logo-3491390_960_720-200h.png"
+                description="Users"
+                className="home-component5"
+              ></StatsCard>
+            </a>
           </div>
           <div className="home-container24">
             <StatsCard
